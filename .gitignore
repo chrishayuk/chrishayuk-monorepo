@@ -1,5 +1,11 @@
+# git stuff
+.husky
+
 # node.js stuff
 node_modules
 
 # turbo
 .turbo
+
+# log files
+*.log
