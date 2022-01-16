@@ -1,0 +1,20 @@
+{
+  "name": "chrishayuk-monorepo",
+  "private": true,
+  "description": "chrishayuk channel codebase",
+  "workspaces": [
+      "packages/*",
+      "apps/*"
+    ],
+  "turbo": {
+    "baseBranch": "origin/main",
+    "pipeline": {
+      "dev": {
+        "cache": false
+      }
+    }
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  }
+}
