@@ -3,9 +3,10 @@
   "private": true,
   "description": "chrishayuk channel codebase",
   "workspaces": [
-      "packages/*",
-      "apps/*"
-    ],
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {"commit": "cz"},
   "turbo": {
     "baseBranch": "origin/main",
     "pipeline": {
@@ -15,6 +16,12 @@
     }
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "turbo": "latest"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
