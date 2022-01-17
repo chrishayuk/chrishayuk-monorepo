@@ -3,6 +3,7 @@
 
 # node.js stuff
 node_modules
+dist
 
 # turbo
 .turbo
