@@ -22,8 +22,9 @@ function draw(text: string) {
 export const createServer = () => {
   const app = express();
   app
-    .use(urlencoded({ extended: true }))
+    //.use(urlencoded({ extended: true }))
     .get("/", (req, res) => {
+      res.setHeader('Content-Type', 'text/plain');
       return res.send("hello, i'm Linval, i'm a very slow but happy image server");
     })
     .get("/text2png", async (req, res) => {
