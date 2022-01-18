@@ -2,6 +2,10 @@
   "name": "chrishayuk-monorepo",
   "private": true,
   "description": "chrishayuk channel codebase",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrishayuk/chrishayuk-monorepo"
+  },
   "workspaces": [
     "packages/*",
     "apps/*"
