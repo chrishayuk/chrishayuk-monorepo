@@ -36,3 +36,16 @@ if you want a friendly message from linval call
 curl localhost:3000
 ```
 
+## text2png
+linval can generate a png with text you pass him
+
+```
+http://localhost:3000/?text=chrishayuk
+```
+
+by default linval won't slow down passing the image, but if you need him to delay sending back the image you can ask him to do so.  The following example delays the response by 2 seconds
+
+```
+http://localhost:3000/?text=chrishayuk&sleep=2000
+```
+
