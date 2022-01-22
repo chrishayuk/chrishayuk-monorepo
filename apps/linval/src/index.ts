@@ -12,7 +12,7 @@ const success = chalk.bold.blue;
 const error = chalk.bold.red;
 const warning = chalk.hex('#FFA500');
 const info = chalk.yellow;
-const x = y;
+const x = q;
 
 // log
 log(info(`Hi, i'm Linval, i'm a very slow but happy image server`));
