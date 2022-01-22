@@ -1,0 +1,21 @@
+{
+  "name": "esbuild-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:react": "esbuild ./src/app.tsx --bundle --outdir=./src/public/dist --minify --sourcemap --target=chrome58,firefox57,safari11,edge16",
+    "clean": "rm -rf ./src/public/dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "esbuild": "^0.14.11",
+    "esbuild-wasm": "^0.14.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
