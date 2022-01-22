@@ -1,8 +1,8 @@
 {
-    "*.{css,less,scss,html,json,jsx,js,ts,tsx}": [
+    "src/**/*.{css,less,scss,html,json,md,jsx,js,ts,tsx}": [
         "prettier — write"
     ],
-    "*.{jsx, js,tsx,ts}": [
+    "src/**/*.+(js|json|ts|tsx)": [
         "eslint --fix"
     ]
 }
