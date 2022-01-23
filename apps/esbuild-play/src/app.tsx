@@ -1,10 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-function App() {
-  return (
-    <div>hello world from esbuild</div>
-  );
-}
+const App = () => <div>hello esbuild world</div>
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'))
